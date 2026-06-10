@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Karishma R | AI & ML Specialist E-Portfolio & Blog</title>
+  <meta name="description" content="Professional portfolio and blog of Karishma R, a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning at REVA University. Strong academic record with CGPA 9.7.">
+  <meta name="keywords" content="Karishma R, AI ML Student, Data Scientist Portfolio, REVA University, Computer Science Engineering, Python SQL NumPy Developer, Hospital Management SQL Project, Bangalore BTech Student">
+  <meta name="author" content="Karishma R">
+  
+  <!-- Open Graph / Social Sharing Meta -->
+  <meta property="og:title" content="Karishma R | AI & ML Student Portfolio">
+  <meta property="og:description" content="Explore projects, skills, certifications, and blogs on Artificial Intelligence and Data Science by Karishma R.">
+  <meta property="og:type" content="website">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Layout Background Elements -->
+  <div class="ambient-grid"></div>
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+  
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress"></div>
+
+  <!-- Header Navigation -->
+  <header id="header">
+    <div class="container">
+      <a href="#hero" class="logo">
+        KR<span class="logo-dot"></span>
+      </a>
+      
+      <nav class="nav-links" id="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+          <!-- Populated by JS -->
+        </button>
+        <button id="menu-btn" class="menu-btn" aria-label="Open mobile menu">
+          <svg style="width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2;" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="badge badge-primary">B.Tech Student @ REVA University</span>
+          </div>
+          <h1 class="hero-title">Karishma R</h1>
+          <div class="hero-subtitle">
+            AI & Machine Learning Enthusiast | Aspiring Data Scientist | B.Tech CSE Student
+          </div>
+          <p class="hero-text">
+            Motivated Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning with a strong academic record (CGPA 9.7). Passionate about leveraging technology, data, and intelligent systems to solve real-world problems and create innovative solutions.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          </div>
+        </div>
+        
+        <div class="hero-visual reveal" style="transition-delay: 0.2s;">
+          <div class="hero-canvas-container glass-panel">
+            <canvas id="hero-canvas"></canvas>
+            
+            <!-- Dynamic Micro-Stats Overlay -->
+            <div class="hero-stats">
+              <div class="hero-stat-card glass-panel">
+                <div class="hero-stat-num">9.7</div>
+                <div class="hero-stat-label">CGPA</div>
+              </div>
+              <div class="hero-stat-card glass-panel">
+                <div class="hero-stat-num">2029</div>
+                <div class="hero-stat-label">Grad Year</div>
+              </div>
+              <div class="hero-stat-card glass-panel">
+                <div class="hero-stat-num">100%</div>
+                <div class="hero-stat-label">Dedicated</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Get to Know Me</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-highlights reveal">
+          <div class="about-highlight-card glass-panel">
+            <div class="about-highlight-icon">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+            </div>
+            <h3>AI & Data Science</h3>
+            <p>Deep interest in computational algorithms, neural network design, and statistical data mining.</p>
+          </div>
+          
+          <div class="about-highlight-card glass-panel">
+            <div class="about-highlight-icon">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+            </div>
+            <h3>9.7 CGPA Academic</h3>
+            <p>Consistently maintaining prime grades, blending theory with hands-on coding practice.</p>
+          </div>
+          
+          <div class="about-highlight-card glass-panel">
+            <div class="about-highlight-icon">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+            </div>
+            <h3>Problem-Solving Mindset</h3>
+            <p>Translating complex logical statements into clear, structured, and modular database architectures.</p>
+          </div>
+          
+          <div class="about-highlight-card glass-panel">
+            <div class="about-highlight-icon">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+            </div>
+            <h3>Emerging Technologies</h3>
+            <p>Always curious about generative AI developments, model fine-tuning, and neural scaling laws.</p>
+          </div>
+        </div>
+        
+        <div class="about-text reveal" style="transition-delay: 0.2s;">
+          <p>
+            Hello! I'm <strong>Karishma R</strong>, a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning at REVA University. Driven by deep intellectual curiosity, I enjoy bridging the gap between theoretical math and actual software solutions.
+          </p>
+          <p>
+            With an academic record of <strong>9.7 CGPA</strong>, I place high value on structure and coding efficiency. My technical toolkit includes languages like C and Python, along with toolsets like SQL and NumPy. I am constantly working to build expertise that will allow me to design and implement intelligent systems that can process complex, real-world data to make a positive impact.
+          </p>
+          <p>
+            Outside of university coursework, I am actively engaging with online certifications such as the IBM Data Science Professional Course, and documenting my learnings through engineering-focused blogs.
+          </p>
+          <div style="margin-top: 30px;">
+            <a href="#contact" class="btn btn-primary">Connect With Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section-padding" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Academic Journey</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-panel">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-institution">REVA University, Bangalore</h3>
+                <div class="timeline-degree">B.Tech in Computer Science Engineering (Artificial Intelligence & Machine Learning)</div>
+              </div>
+              <div>
+                <span class="timeline-date">2025 – 2029 (Expected)</span>
+              </div>
+            </div>
+            <div style="margin-top: 15px;">
+              <span class="timeline-gpa-badge">
+                <svg style="width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2;" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.952 11.952 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                Current Academic Standing: CGPA 9.7 (Semester 1)
+              </span>
+            </div>
+            <ul class="timeline-details" style="margin-top: 20px;">
+              <li>Core focus on Algorithms, Artificial Intelligence foundations, and Advanced Mathematics.</li>
+              <li>Actively involved in technical clubs, database workshops, and AI-focused peer studies.</li>
+              <li>Top tier rank holder in initial academic terms.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Core Proficiencies</span>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      
+      <div class="skills-wrapper reveal">
+        <div class="skills-grid">
+          
+          <!-- Programming Languages -->
+          <div class="skill-card glass-panel">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /></svg>
+              </div>
+              <h3 class="skill-title">Programming</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python (Advanced)</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percent="90%"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C (Intermediate)</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percent="80%"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Core Java (Basic)</span>
+                  <span class="skill-percentage">55%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percent="55%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Technologies & Tools -->
+          <div class="skill-card glass-panel">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 .621-.504 1.125-1.125 1.125H4.875A1.125 1.125 0 013.75 18.4V14.15m16.5 0c0-1.208-.79-2.274-1.99-2.577L12.75 9.75v-1.5a1.5 1.5 0 10-3 0v1.5L4.24 11.573a2.625 2.625 0 00-1.99 2.578m16.5 0V12.75M3.75 14.15V12.75" /></svg>
+              </div>
+              <h3 class="skill-title">Technologies & Tools</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL (Database Queries)</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percent="85%"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">NumPy (Data Analysis)</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percent="75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Areas of Interest -->
+          <div class="skill-card glass-panel">
+            <div class="skill-card-header">
+              <div class="skill-icon">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.656 48.656 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7C4.547 9.547 4.5 10.768 4.5 12s.047 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.092-1.209.138-2.43.138-3.662z" /><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5" /></svg>
+              </div>
+              <h3 class="skill-title">Areas of Interest</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Artificial Intelligence & ML</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percent="90%"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Data Science & Engineering</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percent="85%"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Database Management Systems</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percent="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section-padding" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+      
+      <div class="certifications-grid reveal">
+        <div class="cert-card glass-panel">
+          <div class="cert-badge-visual">
+            <div class="cert-svg-glow"></div>
+            <!-- Custom Stylized SVG Certification Emblem -->
+            <svg viewBox="0 0 100 100" fill="none">
+              <!-- Outer Ring -->
+              <circle cx="50" cy="50" r="42" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="4 2" />
+              <!-- Inner Shield Outline -->
+              <path d="M50 20 L72 30 V55 C72 70 50 82 50 82 C50 82 28 70 28 55 V30 L50 20 Z" fill="rgba(20, 184, 166, 0.05)" stroke="var(--primary)" stroke-width="2" />
+              <!-- Central Data Links Icon -->
+              <circle cx="50" cy="42" r="6" fill="var(--secondary)" />
+              <circle cx="40" cy="56" r="4" fill="var(--accent)" />
+              <circle cx="60" cy="56" r="4" fill="var(--accent)" />
+              <line x1="50" y1="42" x2="40" y2="56" stroke="var(--text-primary)" stroke-width="1" />
+              <line x1="50" y1="42" x2="60" y2="56" stroke="var(--text-primary)" stroke-width="1" />
+              <line x1="40" y1="56" x2="60" y2="56" stroke="var(--text-primary)" stroke-width="1" />
+            </svg>
+          </div>
+          <h3 class="cert-title">IBM Data Science Professional</h3>
+          <div class="cert-issuer">IBM | Coursera</div>
+          <div class="cert-status">Currently Enrolled</div>
+          <p class="cert-description">
+            Comprehensive curriculum detailing Python, SQL, data analysis, statistical modeling, data visualization with Matplotlib, and machine learning algorithms.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Project Section -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Case Study</span>
+        <h2 class="section-title">Featured Project</h2>
+      </div>
+      
+      <div class="project-case-study">
+        <div class="project-details reveal">
+          <div class="project-tags">
+            <span class="badge badge-primary">SQL</span>
+            <span class="badge badge-secondary">Database Design</span>
+            <span class="badge badge-primary">System Analysis</span>
+          </div>
+          <h3 class="project-title">Hospital Management System</h3>
+          <p class="project-description">
+            Designed and developed a basic Hospital Management System backend database structure to optimize healthcare data organization. The focus of the project was implementing proper database relational schemas and data normalization strategies to eliminate redundancy and improve workflow efficiency.
+          </p>
+          
+          <div class="project-features">
+            <div class="feature-item">
+              <span class="feature-icon-bullet">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" /></svg>
+              </span>
+              <span>Patient Records Directory</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon-bullet">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" /></svg>
+              </span>
+              <span>Doctor Allocations</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon-bullet">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" /></svg>
+              </span>
+              <span>Pharmacy &amp; Stock Logistics</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon-bullet">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" /></svg>
+              </span>
+              <span>Billing &amp; Invoice Systems</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon-bullet">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" /></svg>
+              </span>
+              <span>Laboratory Testing Results</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon-bullet">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" /></svg>
+              </span>
+              <span>Admin Control Centers</span>
+            </div>
+          </div>
+          
+          <div class="project-impact">
+            <p><strong>Impact:</strong> Enforced 3NF normalization rules across tables, reducing database storage overlap and preventing key update anomalies. This significantly streamlined patient check-in workflows and diagnostic data retrieval rates.</p>
+          </div>
+        </div>
+        
+        <div class="project-visual-wrapper reveal" style="transition-delay: 0.2s;">
+          <!-- Interactive HTML/CSS Mock Dashboard Component -->
+          <div class="mock-dashboard">
+            <div class="dashboard-header">
+              <div class="dashboard-dots">
+                <span class="dashboard-dot red"></span>
+                <span class="dashboard-dot yellow"></span>
+                <span class="dashboard-dot green"></span>
+              </div>
+              <div class="dashboard-title">HOSPITAL_DATABASE_CONSOLE.SQL</div>
+            </div>
+            <div class="dashboard-body">
+              <div class="dashboard-sidebar">
+                <div class="sidebar-item-mock active"></div>
+                <div class="sidebar-item-mock"></div>
+                <div class="sidebar-item-mock"></div>
+                <div class="sidebar-item-mock"></div>
+              </div>
+              <div class="dashboard-content">
+                <div class="dashboard-stats-grid">
+                  <div class="dashboard-stat-box">
+                    <div class="stat-box-num">324</div>
+                    <div class="stat-box-label">Patients</div>
+                  </div>
+                  <div class="dashboard-stat-box">
+                    <div class="stat-box-num">18</div>
+                    <div class="stat-box-label">Doctors</div>
+                  </div>
+                  <div class="dashboard-stat-box">
+                    <div class="stat-box-num" data-dynamic>94.2%</div>
+                    <div class="stat-box-label">CPU Load</div>
+                  </div>
+                </div>
+                
+                <div class="dashboard-table-mock">
+                  <div class="table-row-mock" style="margin-bottom: 4px;">
+                    <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted);">PATIENT_NAME</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted);">DEPT</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted);">STATUS</span>
+                  </div>
+                  <div class="table-row-mock">
+                    <div class="table-cell-mock-long"></div>
+                    <div class="table-cell-mock-short"></div>
+                    <div class="table-cell-mock-status"></div>
+                  </div>
+                  <div class="table-row-mock">
+                    <div class="table-cell-mock-long"></div>
+                    <div class="table-cell-mock-short"></div>
+                    <div class="table-cell-mock-status"></div>
+                  </div>
+                  <div class="table-row-mock">
+                    <div class="table-cell-mock-long"></div>
+                    <div class="table-cell-mock-short"></div>
+                    <div class="table-cell-mock-status"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Goals & Languages Section -->
+  <section class="section-padding" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="goals-languages-grid">
+        
+        <!-- Career Goals -->
+        <div class="career-goals-card glass-panel reveal">
+          <span class="section-subtitle" style="margin-bottom: 12px; display: block;">Ambition</span>
+          <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Career Vision</h3>
+          <blockquote class="goals-text">
+            "My goal is to build deep expertise in Artificial Intelligence, Machine Learning, and Data Science while contributing to innovative projects that solve meaningful real-world challenges. I aspire to gain industry experience through internships and continuously develop my technical and analytical skills."
+          </blockquote>
+          <p style="color: var(--text-secondary);">
+            Believing that algorithms have the power to transform industries, I aim to focus on ethical AI integration, predictive system structures, and scalable database operations.
+          </p>
+        </div>
+        
+        <!-- Languages spoken -->
+        <div class="languages-card glass-panel reveal" style="transition-delay: 0.15s;">
+          <span class="section-subtitle" style="margin-bottom: 12px; display: block;">Communication</span>
+          <h3 style="font-size: 1.8rem; margin-bottom: 24px;">Languages</h3>
+          <div class="languages-list">
+            <div class="lang-item">
+              <span class="lang-name">English</span>
+              <div class="lang-bar">
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+              </div>
+            </div>
+            
+            <div class="lang-item">
+              <span class="lang-name">Kannada</span>
+              <div class="lang-bar">
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+              </div>
+            </div>
+            
+            <div class="lang-item">
+              <span class="lang-name">Hindi</span>
+              <div class="lang-bar">
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot active"></span>
+                <span class="lang-dot"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog & Insights Section -->
+  <section id="blog" class="section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Learnings &amp; Stories</span>
+        <h2 class="section-title">AI &amp; Tech Blog</h2>
+      </div>
+      
+      <!-- Category Filters -->
+      <div class="blog-controls reveal">
+        <button class="blog-filter-btn active" data-filter="all">All Stories</button>
+        <button class="blog-filter-btn" data-filter="data-science">Data Science</button>
+        <button class="blog-filter-btn" data-filter="database-management">Databases</button>
+        <button class="blog-filter-btn" data-filter="artificial-intelligence">AI Theory</button>
+      </div>
+      
+      <!-- Blog Cards Grid -->
+      <div class="blog-grid" id="blog-grid">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      
+      <div class="contact-grid">
+        
+        <!-- Contact Information Details -->
+        <div class="contact-info reveal">
+          <div class="contact-card glass-panel">
+            <h3>Contact Information</h3>
+            <div class="contact-details">
+              
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                </div>
+                <div class="contact-item-info">
+                  <h4>Email</h4>
+                  <p><a href="mailto:karishmarj06@gmail.com">karishmarj06@gmail.com</a></p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                </div>
+                <div class="contact-item-info">
+                  <h4>Location</h4>
+                  <p>Bangalore, Karnataka, India</p>
+                </div>
+              </div>
+              
+            </div>
+            
+            <div style="margin-top: 40px;">
+              <h4 style="font-family: var(--font-heading); font-size: 0.95rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 15px;">Professional Networks</h4>
+              <div class="social-links">
+                <!-- LinkedIn Link Placeholder -->
+                <a href="#" class="social-btn" aria-label="LinkedIn Profile">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </a>
+                
+                <!-- GitHub Link Placeholder -->
+                <a href="#" class="social-btn" aria-label="GitHub Profile">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form Card -->
+        <div class="contact-form-card glass-panel reveal" style="transition-delay: 0.2s;">
+          <h3>Send a Message</h3>
+          <form id="contact-form" class="contact-form" novalidate>
+            
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Full Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input type="email" id="form-email" class="form-input" placeholder="email@example.com" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="form-message" class="form-label">Message</label>
+              <textarea id="form-message" class="form-input" placeholder="Type your message details here..." required></textarea>
+            </div>
+            
+            <div id="form-status" class="form-status"></div>
+            
+            <div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </div>
+            
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="logo footer-logo">
+        KR<span class="logo-dot"></span>
+      </div>
+      <p class="footer-text">
+        &copy; 2026 Karishma R. Built from scratch with love &amp; code. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Immersive Blog Reader Modal Overlay Container -->
+  <div id="blog-modal" class="blog-modal">
+    <div id="blog-modal-overlay" class="blog-modal-overlay"></div>
+    <div class="blog-modal-container">
+      <button id="blog-modal-close" class="blog-modal-close-btn" aria-label="Close article">
+        <svg style="width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2.5;" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <div id="blog-modal-dynamic-content" class="blog-modal-content">
+        <!-- Content injected dynamically by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
