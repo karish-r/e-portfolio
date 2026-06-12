@@ -12,11 +12,11 @@ const BLOG_POSTS = [
       <blockquote class="glass-panel"><p>"The best way to predict the future is to invent it." — Alan Kay</p></blockquote>
       <h3>1. About Me: The Intersection of Logic, Data, and Curiosity</h3>
       <p>From a young age, I have been fascinated by how computers can learn patterns. What started as simple curiosity about search engine algorithms quickly evolved into a dedicated passion for Artificial Intelligence (AI), Machine Learning (ML), and Data Science. To me, AI is the ultimate tool for problem-solving. We are surrounded by complex challenges—from optimizing healthcare administration to predicting climate trends. I am driven by the desire to build software that does not just run instructions, but actively learns from data to make processes more efficient, accessible, and accurate.</p>
-      <p>As a student, I approach engineering with a double-edged methodology: rigorous academic discipline and relentless hands-on exploration. I believe that a strong theoretical understanding of mathematics (such as linear algebra and statistics) combined with direct coding practice is the key to mastering machine learning. My academic standing (CGPA 9.7) is a reflection of this commitment, representing not just high grades, but a deep-seated dedication to continuous learning and intellectual growth.</p>
+      <p>As a student, I approach engineering with a double-edged methodology: rigorous academic discipline and relentless hands-on exploration. I believe that a strong theoretical understanding of mathematics (such as linear algebra and statistics) combined with direct coding practice is the key to mastering machine learning. My academic standing (Semester 1 Result: Above 80%) is a reflection of this commitment, representing not just high grades, but a deep-seated dedication to continuous learning and intellectual growth.</p>
       <h3>2. My Academic Journey: Building the Foundations</h3>
       <p>My formal engineering journey began at REVA University in Bangalore, where I am pursuing my B.Tech in Computer Science Engineering with a specialization in Artificial Intelligence and Machine Learning (2025–2029). Bangalore, often called the Silicon Valley of India, provides the perfect backdrop for my studies. The proximity to global tech leaders and cutting-edge startups keeps me constantly motivated.</p>
       <ul>
-        <li><strong>Current Standing:</strong> Semester 1 CGPA of 9.7 / 10.0</li>
+        <li><strong>Current Standing:</strong> Semester 1 Result: Above 80%</li>
         <li><strong>Specialization:</strong> Artificial Intelligence & Machine Learning</li>
         <li><strong>Expected Graduation:</strong> 2029</li>
       </ul>
