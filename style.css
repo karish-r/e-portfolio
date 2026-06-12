@@ -536,6 +536,11 @@ header .container {
   align-items: center;
 }
 
+.about-content-single {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .about-highlights {
   display: grid;
   grid-template-columns: 1fr 1fr;

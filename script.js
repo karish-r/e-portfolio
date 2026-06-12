@@ -182,7 +182,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initMobileMenu();
   initNeuralCanvas();
   initScrollReveals();
-  initSkillBars();
   initBlogSection();
   initContactForm();
   initDashboardAnimation();
@@ -454,31 +453,6 @@ function initScrollReveals() {
   revealElements.forEach(el => revealObserver.observe(el));
 }
 
-/* =========================================================================
-   6. Skills Card Progress Indicators (Triggered on scroll entrance)
-   ========================================================================= */
-function initSkillBars() {
-  const skillBarContainer = document.querySelector("#skills");
-  const skillBars = document.querySelectorAll(".skill-bar-fill");
-  
-  const skillObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        skillBars.forEach(bar => {
-          const targetPercent = bar.getAttribute("data-percent");
-          bar.style.width = targetPercent;
-        });
-        skillObserver.unobserve(entry.target);
-      }
-    });
-  }, {
-    threshold: 0.2
-  });
-  
-  if (skillBarContainer) {
-    skillObserver.observe(skillBarContainer);
-  }
-}
 
 /* =========================================================================
    7. Blog System (Filters, Modal Render, Read Time)
